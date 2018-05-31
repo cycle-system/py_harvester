@@ -25,7 +25,7 @@ class STMBoard:
 
         response = ''
 
-	while ser.inWaiting() > 0:
+	while self.port.inWaiting() > 0:
             response += ser.read(1)
 
         # response should be encoded in json
