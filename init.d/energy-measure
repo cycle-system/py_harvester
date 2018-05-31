@@ -3,7 +3,7 @@
 START=99
 
 USE_PROCD=1
-BIN="/usr/bin/python /root/iot-weather-station/main.py > /dev/null 2>&1 &"
+BIN="/usr/bin/python /root/py_harvester/main.py > /dev/null 2>&1 &"
 
 start_service() {
         procd_open_instance

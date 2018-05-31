@@ -3,7 +3,7 @@
 import helpers
 from time import sleep
 
-sleepTime = 5           # seconds
+sleepTime = 1           # seconds
 eventName = "energy-values"   # the name of the event as registered on the cloud
 
 # main program

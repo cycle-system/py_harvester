@@ -32,7 +32,7 @@ class STMBoard:
         
 	try:
             jsonResponse = json.loads(response)
-        except x:
+        except ValueError:
             warnings.warn("No response from board")
-            return None
+	    return None
         return jsonResponse
